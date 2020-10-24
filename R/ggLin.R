@@ -4,8 +4,7 @@
 #' my favorite theme settings, so I figure I'd write that into this package
 #' to simplify the process.
 #'
-#' The specifications of this theme is as follows:
-#' \code{ \cr
+#' The specifications of this theme is as follows: \cr
 #' theme_classic()+   \cr
 #' theme(   \cr
 #' plot.title         = element_text(hjust = 0.5, size = 24, colour="black"),  \cr
@@ -15,8 +14,8 @@
 #'  axis.title         = element_text(size = 16, colour="black"),  \cr
 #'  axis.text.x        = element_text(size = 14, colour="black"),  \cr
 #'  axis.text.y        = element_text(size = 14, colour="black"),  \cr
-#'  legend.title.align = 0.5)  \cr
-#'}
+#'  legend.title.align = 0.5)
+#'
 #'
 #' @name ggLin
 #'
@@ -30,6 +29,8 @@
 #'
 #'
 #' @importFrom ggplot2 ggplot
+#' @importFrom ggplot2 theme_classic
+#' @importFrom ggplot2 theme
 #' @export
 theme_lin <- function(...){
   theme_classic()+

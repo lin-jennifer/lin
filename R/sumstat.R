@@ -37,7 +37,7 @@
 #' varNA(x)
 #' sdNA(x)
 #'
-#'
+#' @importFrom stats na.omit
 #' @export
 modeNA <- function(x) {
   stopifnot(!is.null(x))
@@ -54,6 +54,7 @@ meanNA <- function(x){
 }
 
 #' @name SummaryStats
+#' @importFrom stats weighted.mean
 #' @export
 wMeanNA <- function(x, w){
   stopifnot(!is.null(x))

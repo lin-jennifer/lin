@@ -68,5 +68,4 @@ sumNA(x)       # 54
 varNA(x)
 sdNA(x)
 
-
 }
