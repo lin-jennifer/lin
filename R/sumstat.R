@@ -22,7 +22,7 @@
 #'
 #' # Mean and Weighted Mean
 #' meanNA(x)    # 6.75
-#' wMeanNA(x)   # 11.5
+#' wMeanNA(x, w)   # 11.5
 #'
 #'
 #' @export

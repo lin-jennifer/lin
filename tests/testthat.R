@@ -1,4 +1,4 @@
 library(testthat)
-library(jlinutils)
+library(lin)
 
-test_check("jlinutils")
+test_check("lin")

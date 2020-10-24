@@ -1,4 +1,4 @@
-# `jlinutils`: Jennifer Lin's Most Used R Functions
+# `lin`: Jennifer Lin's Most Used R Functions
 
 [![Build Status](https://travis-ci.org/lin-jennifer/jlinutils.svg?branch=master)](https://travis-ci.org/lin-jennifer/jlinutils)
 
@@ -10,6 +10,6 @@ Therefore, if you need to install it, use `devtools` as follows:
 
 ```
 library(devtools)
-install_github("lin-jennifer/jlinutils")
-library(jlinutils)
+install_github("lin-jennifer/lin")
+library(lin)
 ```
