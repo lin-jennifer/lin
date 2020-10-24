@@ -1,12 +1,15 @@
-Package: jlinutils
+Package: lin
 Type: Package
 Title: Jennifer Lin's Collection of Functions
 Version: 0.1.0
 Authors@R: c(
     person("Jennifer", "Lin", email = "jenniferlin2025@u.northwestern.edu", role = c("aut", "cre", "cph")))
 Description: These are functions that I use often in my work. May not be useful for general use but may be necessary to install if you are collaborating with me or interacting my R code.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
     testthat
+Depends: 
+    R (>= 2.10)

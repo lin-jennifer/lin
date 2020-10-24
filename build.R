@@ -3,11 +3,11 @@
 # ------------------------------- #
 
 # Remove previous version just in Case
-remove.packages("jlinutils")
+remove.packages("lin")
 
 # Install with devtools
 library(devtools)
-devtools::install("../jlinutils")
+devtools::install("../lin")
 
 # Load to check it is all good
-library(jlinutils)
+library(lin)
