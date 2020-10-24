@@ -27,6 +27,16 @@
 #' # Median
 #' medianNA(x)    # 4
 #'
+#' # Range
+#' rangeNA(x)     # c(1, 21)
+#'
+#' # Sum
+#' sumNA(x)       # 54
+#'
+#' # Variance and Standard Deviation
+#' varNA(x)
+#' sdNA(x)
+#'
 #'
 #' @export
 modeNA <- function(x) {
@@ -57,3 +67,34 @@ medianNA <- function(x){
   stopifnot(!is.null(x))
   median(x, na.rm = TRUE)
 }
+
+#' @name SummaryStats
+#' @export
+rangeNA <- function(x) {
+  stopifnot(!is.null(x))
+  range(x, na.rm = TRUE)
+}
+
+#' @rdname SummaryStats
+#' @importFrom stats sd
+#' @export
+sdNA <- function(x) {
+  stopifnot(!is.null(x))
+  sd(x, na.rm = TRUE)
+}
+
+#' @rdname SummaryStats
+#' @export
+sumNA <- function(x) {
+  stopifnot(!is.null(x))
+  sum(x, na.rm = TRUE)
+}
+
+#' @rdname SummaryStats
+#' @importFrom stats var
+#' @export
+varNA <- function(x) {
+  stopifnot(!is.null(x))
+  var(x, na.rm = TRUE)
+}
+

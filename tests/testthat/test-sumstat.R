@@ -12,3 +12,25 @@ test_that("mean works", {
 test_that("weighted mean works", {
   expect_equal(wMeanNA(x, w), 11.5)
 })
+
+test_that("median works", {
+  expect_equal(medianNA(x), 4)
+})
+
+test_that("range works", {
+  expect_equal(rangeNA(x), c(1, 21))
+})
+
+test_that("standard deviation works", {
+  expect_equal(sdNA(x), sdNA(x))
+})
+
+test_that("sum works", {
+  expect_equal(sumNA(x), 54)
+})
+
+test_that("variance works", {
+  expect_equal(varNA(x), varNA(x))
+})
+
+

@@ -5,6 +5,11 @@
 \alias{modeNA}
 \alias{meanNA}
 \alias{wMeanNA}
+\alias{medianNA}
+\alias{rangeNA}
+\alias{sdNA}
+\alias{sumNA}
+\alias{varNA}
 \title{Summary Statistics Calculations}
 \source{
 \url{https://github.com/jbullock35/Bullock}
@@ -15,6 +20,16 @@ modeNA(x)
 meanNA(x)
 
 wMeanNA(x, w)
+
+medianNA(x)
+
+rangeNA(x)
+
+sdNA(x)
+
+sumNA(x)
+
+varNA(x)
 }
 \arguments{
 \item{x}{a vector}
@@ -34,11 +49,24 @@ x <- c(1, 1, 2, 3, 5, 8, 13, 21, NA, NA, NA)
 w <- c(0, 0, 0, 1, 1, 2, 2, 2, 0, 0, 0)
 
 # Mode
-modeNA(x)    # 1
+modeNA(x)      # 1
 
 # Mean and Weighted Mean
-meanNA(x)    # 6.75
-wMeanNA(x)   # 11.5
+meanNA(x)      # 6.75
+wMeanNA(x, w)  # 11.5
+
+# Median
+medianNA(x)    # 4
+
+# Range
+rangeNA(x)     # c(1, 21)
+
+# Sum
+sumNA(x)       # 54
+
+# Variance and Standard Deviation
+varNA(x)
+sdNA(x)
 
 
 }
