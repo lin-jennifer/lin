@@ -18,6 +18,13 @@ x \%IN\% y
 
 \item{y}{a vector to match}
 }
+\value{
+logical vecotor of items in x not in y
+
+logical vecotor of items in x not in y, omits NAs
+
+logical vecotor of items in x in y, omits NAs
+}
 \description{
 Some useful operators outside of the standard ones in R.
 }
