@@ -18,11 +18,14 @@
 #' w <- c(0, 0, 0, 1, 1, 2, 2, 2, 0, 0, 0)
 #'
 #' # Mode
-#' modeNA(x)    # 1
+#' modeNA(x)      # 1
 #'
 #' # Mean and Weighted Mean
-#' meanNA(x)    # 6.75
-#' wMeanNA(x, w)   # 11.5
+#' meanNA(x)      # 6.75
+#' wMeanNA(x, w)  # 11.5
+#'
+#' # Median
+#' medianNA(x)    # 4
 #'
 #'
 #' @export
@@ -45,4 +48,12 @@ meanNA <- function(x){
 wMeanNA <- function(x, w){
   stopifnot(!is.null(x))
   weighted.mean(x, w, na.rm = TRUE)
+}
+
+#' @name SummaryStats
+#' @importFrom stats median
+#' @export
+medianNA <- function(x){
+  stopifnot(!is.null(x))
+  median(x, na.rm = TRUE)
 }

@@ -1,6 +1,6 @@
 # `lin`: Jennifer Lin's Most Used R Functions
 
-[![Build Status](https://travis-ci.org/lin-jennifer/jlinutils.svg?branch=master)](https://travis-ci.org/lin-jennifer/jlinutils)
+[![Build Status](https://travis-ci.org/lin-jennifer/lin.svg?branch=main)](https://travis-ci.org/lin-jennifer/lin)
 
 This package contains my most used commands and R features.
 
