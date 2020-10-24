@@ -11,6 +11,7 @@ LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
     testthat
+Imports:
     ggplot2
 Depends: 
     R (>= 2.10)
