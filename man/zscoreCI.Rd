@@ -6,6 +6,7 @@
 \alias{zCIupper}
 \alias{zCIlower}
 \alias{zCI}
+\alias{zMOE}
 \title{Confidence Interval from a Normal Distribution}
 \usage{
 se(sd, n)
@@ -14,7 +15,9 @@ zCIupper(x, se, ci)
 
 zCIlower(x, se, ci)
 
-zCI(se, ci)
+zCI(x, se, ci)
+
+zMOE(se, ci)
 }
 \arguments{
 \item{sd}{Standard Deviation -- reference sdNA()}
@@ -46,7 +49,7 @@ ci = 0.95  # for 95\% Confidence Interval
 
 zCIupper(x, se, ci) # 4.283986
 zCIlower(x, se, ci) # 2.716014
-zCI(se, ci)         # 0.7839856
+zMOE(se, ci)        # 0.7839856
 
 }
 \seealso{

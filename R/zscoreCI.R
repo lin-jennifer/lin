@@ -27,7 +27,7 @@
 #'
 #' zCIupper(x, se, ci) # 4.283986
 #' zCIlower(x, se, ci) # 2.716014
-#' zCI(se, ci)         # 0.7839856
+#' zMOE(se, ci)        # 0.7839856
 #'
 #' @export
 se <- function(sd, n){
@@ -49,6 +49,16 @@ zCIlower <- function(x, se, ci){
 #' @name zscoreCI
 #'
 #' @export
-zCI <- function(se, ci){
+zCI <- function(x, se, ci){
+  upper <- x + (qnorm((ci + ((1-ci)/2))))*se
+  lower <- x - (qnorm((ci + ((1-ci)/2))))*se
+  return(c(lower, upper))
+}
+
+
+#' @name zscoreCI
+#'
+#' @export
+zMOE <- function(se, ci){
   (qnorm((ci + ((1-ci)/2))))*se
 }
