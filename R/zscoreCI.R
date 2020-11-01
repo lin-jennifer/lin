@@ -4,7 +4,7 @@
 #' using a z-distribution
 #'
 #' NOTE: This is not NOT intended from a t-distribution.
-#' See relavant tscore file for those calculations
+#' See relavant tscoreCI file for those calculations
 #'
 #' @name zscoreCI
 #'
