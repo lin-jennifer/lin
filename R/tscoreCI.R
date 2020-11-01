@@ -24,9 +24,9 @@
 #'
 #' ci = 0.95  # for 95% Confidence Interval
 #'
-#' tCIupper(x, se, ci) # 4.325559
-#' tCIlower(x, se, ci) # 2.674441
-#' tMOE(se, ci)        # 1.860033
+#' tCIupper(x, se, ci, n) # 4.325559
+#' tCIlower(x, se, ci, n) # 2.674441
+#' tMOE(se, ci, n)        # 0.8255594
 #'
 #'
 #' @export
