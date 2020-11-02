@@ -2,6 +2,7 @@ x = 3.5
 sd = 2
 n = 25
 
+se = se(sd, n)
 ci = 0.95
 
 test_that("tCIupper works", {
