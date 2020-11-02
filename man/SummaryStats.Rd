@@ -6,6 +6,8 @@
 \alias{meanNA}
 \alias{wMeanNA}
 \alias{medianNA}
+\alias{minNA}
+\alias{maxNA}
 \alias{rangeNA}
 \alias{sdNA}
 \alias{sumNA}
@@ -22,6 +24,10 @@ meanNA(x)
 wMeanNA(x, w)
 
 medianNA(x)
+
+minNA(x)
+
+maxNA(x)
 
 rangeNA(x)
 
@@ -59,6 +65,8 @@ wMeanNA(x, w)  # 11.5
 medianNA(x)    # 4
 
 # Range
+minNA(x)       # 1
+maxNA(x)       # 21
 rangeNA(x)     # c(1, 21)
 
 # Sum

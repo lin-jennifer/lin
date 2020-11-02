@@ -28,6 +28,8 @@
 #' medianNA(x)    # 4
 #'
 #' # Range
+#' minNA(x)       # 1
+#' maxNA(x)       # 21
 #' rangeNA(x)     # c(1, 21)
 #'
 #' # Sum
@@ -67,6 +69,20 @@ wMeanNA <- function(x, w){
 medianNA <- function(x){
   stopifnot(!is.null(x))
   median(x, na.rm = TRUE)
+}
+
+#' @name SummaryStats
+#' @export
+minNA <- function(x) {
+  stopifnot(!is.null(x))
+  min(x, na.rm = TRUE)
+}
+
+#' @name SummaryStats
+#' @export
+maxNA <- function(x) {
+  stopifnot(!is.null(x))
+  max(x, na.rm = TRUE)
 }
 
 #' @name SummaryStats

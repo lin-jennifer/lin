@@ -17,6 +17,14 @@ test_that("median works", {
   expect_equal(medianNA(x), 4)
 })
 
+test_that("minima works", {
+  expect_equal(minNA(x), 1)
+})
+
+test_that("maxima works", {
+  expect_equal(maxNA(x), 21)
+})
+
 test_that("range works", {
   expect_equal(rangeNA(x), c(1, 21))
 })
