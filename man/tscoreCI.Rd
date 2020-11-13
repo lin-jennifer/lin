@@ -31,7 +31,7 @@ using a t-distribution
 }
 \details{
 NOTE: This is not NOT intended from a z-distribution.
-See relavant zscoreCI file for those calculations
+See relevant zscoreCI file for those calculations
 }
 \examples{
 x = 3.5

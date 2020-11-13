@@ -5,7 +5,7 @@
 #' @name zscore
 #'
 #' @param x the observation
-#' @param mean mean of interest -- can be sample or ppulation depending on zscore interest
+#' @param mean mean of interest -- can be sample or population depending on zscore interest
 #' @param sd standard deviation or standard error, depending on context
 #'
 #' @examples

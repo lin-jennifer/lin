@@ -9,7 +9,7 @@ zscore(x, mean, sd)
 \arguments{
 \item{x}{the observation}
 
-\item{mean}{mean of interest -- can be sample or ppulation depending on zscore interest}
+\item{mean}{mean of interest -- can be sample or population depending on zscore interest}
 
 \item{sd}{standard deviation or standard error, depending on context}
 }
