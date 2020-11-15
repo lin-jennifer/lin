@@ -1,6 +1,6 @@
-#' Confidence Interval from a t Distribution
+#' One Sample Confidence Interval from a t Distribution
 #'
-#' Helpful functions to calculate a confidence interval
+#' Helpful functions to calculate a one-sample confidence interval
 #' using a t-distribution
 #'
 #' NOTE: This is not NOT intended from a z-distribution.

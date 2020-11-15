@@ -6,7 +6,7 @@
 \alias{tCIlower}
 \alias{tCI}
 \alias{tMOE}
-\title{Confidence Interval from a t Distribution}
+\title{One Sample Confidence Interval from a t Distribution}
 \usage{
 tCIupper(x, se, ci, n)
 
@@ -26,7 +26,7 @@ tMOE(se, ci, n)
 \item{n}{Number of participants}
 }
 \description{
-Helpful functions to calculate a confidence interval
+Helpful functions to calculate a one-sample confidence interval
 using a t-distribution
 }
 \details{

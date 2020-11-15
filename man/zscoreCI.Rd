@@ -7,7 +7,7 @@
 \alias{zCIlower}
 \alias{zCI}
 \alias{zMOE}
-\title{Confidence Interval from a Normal Distribution}
+\title{One Sample Confidence Interval from a Normal Distribution}
 \usage{
 se(sd, n)
 
@@ -31,7 +31,7 @@ zMOE(se, ci)
 \item{ci}{Confidence Interval Level}
 }
 \description{
-Helpful functions to calculate a confidence interval
+Helpful functions to calculate a one-sample confidence interval
 using a z-distribution
 }
 \details{

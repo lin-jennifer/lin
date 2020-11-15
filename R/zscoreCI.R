@@ -1,6 +1,6 @@
-#' Confidence Interval from a Normal Distribution
+#' One Sample Confidence Interval from a Normal Distribution
 #'
-#' Helpful functions to calculate a confidence interval
+#' Helpful functions to calculate a one-sample confidence interval
 #' using a z-distribution
 #'
 #' NOTE: This is not NOT intended from a t-distribution.
