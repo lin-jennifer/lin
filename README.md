@@ -13,3 +13,7 @@ library(devtools)
 install_github("lin-jennifer/lin")
 library(lin)
 ```
+
+## CHANGELOG
+
+- 11-15-2020: `zscore()` and `tCI()` related functions depreciated. Moved to `polstat`. Install `polstat` using: `devtools::install_github("lin-jennifer/polstat")`
